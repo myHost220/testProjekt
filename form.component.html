@@ -1,0 +1,17 @@
+<link rel="stylesheet" href="form.component.css">
+<div class="bc" data-aos="fade-right">
+    <form [formGroup]="loginForm">
+        <div class="controler2">
+        <input placeholder="Enter your name" type="text" formControlName="name">
+        <input placeholder="Enter your number" type="number" formControlName="number">
+        <input placeholder="Enter your email" type="email" formControlName="email">
+    </div>
+    <textarea class="myControl" placeholder="Enter your message" formControlName="message"></textarea>
+    <button type="submit" *ngIf="dere" (click)="search();">ОТПРАВИТЬ</button>
+    <div class="done" *ngIf="!donee && !nameForm && !messageForm && !numberForm"><span class="done_text">Thank you! Your message has been sent.</span></div>
+    <p class="err_text1" *ngIf="!doneGoodd && email?.invalid">email is required</p>
+    <p class="err_text2" *ngIf="!nameFormGood && name?.invalid">name is required</p>
+    <p class="err_text3" *ngIf="!messageFormGood && message?.invalid">message is required</p>
+    <p class="err_text4" *ngIf="!numberGood && number?.invalid">number is required</p>
+    </form>
+</div>

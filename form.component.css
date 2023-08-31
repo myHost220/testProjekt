@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bc{
+    position: absolute;
+    top: 380%;
+    height: 70vh;
+    width: 100%;
+    left: 0;
+}
+img{
+    height: 30px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+h1{
+    font-size: 35px;
+    color: white;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+p{
+    font-size: 18px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.controler2{
+    position: absolute;
+    top: 35%;
+    left: 135px;
+    min-height: 1000px;
+    max-width: 500px;
+}
+input{
+    width: 390px;
+    height: 40px;
+    margin-right: 10px;
+    font-size: 16px;
+    padding: 0 10px;
+    margin-bottom: 15px;
+    background: #F3F3F3;
+    border: none;
+}
+.myControl{
+    position: absolute;
+    top: 61%;
+    left: 135px;
+    width: 390px;
+    height: 90px;
+    margin-top: 30px;
+    font-size: 16px;
+    padding: 10px 10px;
+    margin-bottom: 20px;
+    background: #F3F3F3;
+    resize: none;
+    border: none;
+}
+button{
+    width: 171.8107452392578px;
+    height: 61px;
+    background: #333333;
+    border: none;
+    color: white;
+    position: absolute;
+    top: calc(80% + 70px);
+    left: 135px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0.2em;   
+}
+.last{
+    position: absolute;
+    position: absolute;
+    top: 20%;
+    left: 45%;
+    transform: translate(0, -50%);
+}
+.done{
+    height: 70px;
+    width: 410px;
+    background-color: rgb(75, 214, 140);
+    position: absolute;
+    top: calc(80% + 70px);
+    left: 135px;
+}
+.done_text{
+    font-size: 18px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-43%, -50%);
+    min-width: 400px;
+    color: white;
+}
+.err_text2{
+    position: absolute;
+    top: 33%;
+    left: 135px;
+    transform: translate(0, -50%);
+    color: red;
+    font-size: 14px;
+}
+.err_text1{
+    position: absolute;
+    top: 54.3%;
+    left: 135px;
+    transform: translate(0, -50%);
+    color: red;
+    font-size: 14px;
+}
+.err_text3{
+    position: absolute;
+    top: calc(52% + 67px);
+    left: 135px;
+    transform: translate(0, -50%);
+    color: red;
+    font-size: 14px;
+}
+.err_text4{
+    position: absolute;
+    top: 43.8%;
+    left: 135px;
+    transform: translate(0, -50%);
+    color: red;
+    font-size: 14px;
+}

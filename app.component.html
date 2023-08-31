@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="app.component.css">
+</head>
+<body>
+
+  <div class="help_color" [class.header_change]="header_variable">
+    <ul class="menu">
+      <li><a href="#">ГЛАВНАЯ</a></li>
+      <li><a href="#">ГАЛЕРЕЯ</a></li>
+      <li><a href="#">ПРОЕКТЫ</a></li>
+      <li><a href="#">СЕРТИФИКАТЫ</a></li>
+      <li><a href="#">КОНТАКТЫ</a></li>
+    </ul>
+    <img class="icon" src="../assets/images/company.png" alt="">
+    <p>DIGITAL PROJECT</p>
+  </div>
+    <img class="white_house" src="../assets/images/white_house.png" alt="">
+    <img class="hide" [class.new_house]="newHouse" src="../assets/images/white_house2.jpg" alt="">
+     <h1 class="pr">PROJECT</h1>
+     <h1 class="hm">HOME</h1>
+    <div class="buttons">
+    <button class="st1" (click)="houseBack()"><img src="../assets/images/strelka1.png" alt=""></button>
+    <button class="st2" (click)="changeHouse()"><img src="../assets/images/strelka2.png" alt=""></button>
+    </div>  
+    <p class="schot" data-aos="fade-up"
+    data-aos-duration="500">{{schotchik}}</p>
+   <button class="look"><div class="control">Взглянуть<img class="bt_st" src="../assets/images/strelka.png" alt=""></div></button>
+   <img class="R8" src="../assets/images/Rectangle 8.png" data-aos="fade-right" data-aos-duration="500" alt="">
+    <img class="R9" data-aos="fade-left" data-aos-duration="500" src="../assets/images/Rectangle 9.png" alt="">
+    <img class="R10" data-aos="fade-up"
+    data-aos-duration="500" src="../assets/images/Rectangle 10.png" alt="">
+    <div class="bcHelp"></div>
+    <h1 class="zg1" data-aos="fade-up" data-aos-duration="500">О компании</h1>
+    <p class="txt1" data-aos="fade-up" data-aos-duration="500">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+    <button class="read"><div class="control">Взглянуть<img class="bt_st" src="../assets/images/strelka.png" alt=""></div></button>
+    <h1 class="zg2" data-aos="fade-right">Основные задачи</h1>
+    <img class="nomer1" src="../assets/images/1.png" data-aos="fade-down" alt="">
+    <p class="txt2" data-aos="fade-up">Создание комфортных условий и повышение качества обслуживания клиентов</p>
+    <img class="nomer2" data-aos="fade-down" src="../assets/images/2.png" alt="">
+    <p class="txt3" data-aos="fade-up">Постоянно совершенствовать качество предоставляемых услуг путем обучения персонала, закупки нового оборудования и усиленной рекламы на рынке</p>
+    <h1 class="zg3" data-aos="fade-down">Наши проекты</h1>
+    <img class="kart1" data-aos="fade-left" src="../assets/images/image 15.png" alt="">
+    <img class="kart2" data-aos="fade-up" src="../assets/images/image 16.png" alt="">
+    <img class="kart3" data-aos="fade-up" src="../assets/images/image 17.png" alt="">
+    <img class="kart4" data-aos="fade-up" src="../assets/images/image 18.png" alt="">
+    <img class="kart5" data-aos="fade-right" src="../assets/images/image.jpg" alt="">
+    <div class="kart6" data-aos="fade-right">
+      <h1 class="zg4">ДОСУГОВЫЙ ЦЕНТР</h1>
+      <a href="#" class="btn1">ПОДРОБНЕЕ<img src="../assets/images/ico-shape.png" alt=""></a>
+    </div>
+    <div class="btn2"><div class="ps">ВСЕ ПРОЕКТЫ <img src="../assets/images/ico-shape.png" alt=""></div></div>
+    <img data-aos="fade-left" class="call" src="../assets/images/image 12.png" alt="">
+    <h1 class="svaz">Связаться с нами</h1>
+    <app-form></app-form>
+    <div class="last_div">
+      <a class="text" href="#">Информация</a>
+      <a class="text1" href="#">Главная</a>
+      <a class="text2" href="#">Галерея</a>
+      <a class="text3" href="#">Проекты</a>
+      <a class="text4" href="#">Сертификаты</a>
+      <a class="text5" href="#">Контакты</a>
+      <a class="text6" href="#">Контакты</a>
+      <img class="vc" src="../assets/images/Vector.png" alt="">
+      <img class="gr" src="../assets/images/Group.png" alt="">
+      <img class="grr" src="../assets/images/Group p.png" alt="">
+      <img class="fc" src="../assets/images/facebook.png" alt="">
+      <img class="tw" src="../assets/images/twitter.png" alt="">
+      <img class="ln" src="../assets/images/Linked In.png" alt="">
+      <img class="pn" src="../assets/images/pininterest.png" alt="">
+      <p class="text7">100000, Республика  Казахстан, 
+        г. Караганда, ул. Телевизионная 10</p>
+        <p class="text8">+38 (000) 000 00 00</p>
+        <p class="em">mail@gmail.com</p>
+        <p class="text9">Социальные сети</p>
+    </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</body>
+</html>
